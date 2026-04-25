@@ -163,13 +163,13 @@ nav a:hover {
 
 .gallery {
   display: flex;
-  flex-direction: row;   /*THIS is what fixes stacking */
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   gap: 60px;
   margin-top: 120px;
-  margin-bottom: 80px;   /* spacing below gallery */
-  flex-wrap: wrap;       /* prevents overflow on smaller desktops */
+  margin-bottom: 80px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -186,7 +186,6 @@ nav a:hover {
 
   transition: 0.3s ease;
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-}
 
   width: 260px; /*FIXED: better desktop size */
 }
