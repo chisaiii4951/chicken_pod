@@ -109,26 +109,11 @@ nav a:hover {
 
 .admin {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-  margin: 100px auto;
-  max-width: 900px;
-  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 100px 20px;
 }
-
-.admin div {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  max-width: 500px;
-  margin-top: auto;
-}
-
-.admin p {
-  text-align: left;
-  line-height: 1.5;
-  color: #9CA3AF;
 
 .admin img {
   width: 120px;
@@ -261,17 +246,8 @@ footer {
 
   .admin {
     flex-direction: column;
-    align-items: cener;
+    align-items: center;
     text-align: center;
-  }
-
-  .admin p {
-    text-align: center;
-    max-width: 90%;
-  }
-
-  .admin div {
-    margin-top: auto;
   }
 
   .admin img {
