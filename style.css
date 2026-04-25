@@ -256,22 +256,30 @@ footer {
   .gallery {
     flex-direction: column;
     align-items: center;
-    gap: 25px;
-    padding: 0 20px;
+    gap: 18px;
+    margin-top: 60px;
+    margin-bottom: 40px
+    padding: 0 15px;
   }
 
   .card {
-    width: 100%;
-    max-width: 320px;
+    width: 85%;
+    max-width: 260px;
   }
 
   .card img {
     width: 100%;
+    border-radius: 10px;
   }
 
   .modal-content {
-    width: 90%;
-    height: 520px;
-    margin: 20% auto;
+    width: 85%;
+    height: 420px;
+    margin: 15% auto;
+    padding: 15px
+  }
+
+  iframe {
+    height: 280px;
   }
 }
