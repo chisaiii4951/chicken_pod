@@ -4,10 +4,9 @@ body {
   color: #EAEAF0;
   overflow-x: hidden;
 
-  background: radial-gradient(circle at 20% 20%, #1a1a2e, #0D0D12 60%);
-}
+  background: radial-gradient(circle at 20% 20%, #1a1a2e, #0D0D12 60%);}
 
-/*moving nebula layer*/
+* MOVING BACKGROUND LAYER 
 body::before {
   content: "";
   position: fixed;
@@ -18,50 +17,29 @@ body::before {
               radial-gradient(circle at 70% 60%, rgba(99,102,241,0.12), transparent 45%),
               radial-gradient(circle at 50% 80%, rgba(236,72,153,0.08), transparent 50%);
 
-  animation: floatNebula 25s linear infinite;
-}
+  animation: floatNebula 25s linear infinite;}
 
-/* movement animation */
+* MOVEMENT ANIMATION
 @keyframes floatNebula {
   0% { transform: translate(0,0) scale(1); }
   50% { transform: translate(-3%, 3%) scale(1.05); }
   100% { transform: translate(0,0) scale(1); }
 }
 
-/* =========================
-   ANIMATIONS
-   ========================= */
-
-@keyframes fadeIn {
-  from { opacity: 0; }
+* ANIMATIONS
+@keyframes fadeIn {from { opacity: 0; }
   to { opacity: 1; }
 }
 
-@keyframes fadeUp {
-  from {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+@keyframes fadeUp {from {transform: translateY(20px); opacity: 0; }
+  to {transform: translateY(0); opacity: 1; }
 }
 
-@keyframes slideUp {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+@keyframes slideUp {from {transform: translateY(30px); opacity: 0; }
+  to {transform: translateY(0); opacity: 1; }
 }
 
-/* =========================
-   HEADER
-   ========================= */
+* HEADER
 
 header {
   display: flex;
@@ -84,9 +62,7 @@ nav a:hover {
   color: #A78BFA;
 }
 
-/* =========================
-   HERO
-   ========================= */
+* HERO
 
 .hero {
   text-align: center;
@@ -103,9 +79,7 @@ nav a:hover {
   animation: fadeUp 1.2s ease;
 }
 
-/* =========================
-   BUTTON
-   ========================= */
+* BUTTONS
 
 .btn {
   display: inline-block;
@@ -123,9 +97,7 @@ nav a:hover {
   opacity: 0.9;
 }
 
-/* =========================
-   ADMIN
-   ========================= */
+* ADMIN
 
 .admin {
   display: flex;
@@ -135,13 +107,11 @@ nav a:hover {
   gap: 30px;
 }
 
-/* image stays same */
 .admin img {
   width: 120px;
   border-radius: 50%;
 }
 
-/* text container */
 .admin div {
   max-width: 400px;
   text-align: left;
@@ -157,9 +127,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-/* =========================
-   GALLERY
-   ========================= */
+* GALLERY
 
 .gallery {
   display: flex;
@@ -187,7 +155,7 @@ nav a:hover {
   transition: 0.3s ease;
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 
-  width: 260px; /*FIXED: better desktop size */
+  width: 260px;
 }
 
 .card img {
@@ -220,7 +188,8 @@ nav a:hover {
   border-radius: 50%;
 }
 
-/* animation */
+* ANIMATION
+
 @keyframes float {
   from {
     transform: translateY(100vh) scale(0.5);
@@ -237,9 +206,7 @@ nav a:hover {
   align-items: center;
 }
 
-/* =========================
-   GLASS SOCIAL ICONS
-   ========================= */
+* ICONS
 
 .icon-btn {
   display: flex;
@@ -274,9 +241,7 @@ nav a:hover {
   box-shadow: 0 8px 20px rgba(167,139,250,0.25);
 }
 
-/* =========================
-   MODAL
-   ========================= */
+* MODALS
 
 .modal {
   display: none;
@@ -293,7 +258,7 @@ nav a:hover {
   margin: 5% auto;
   padding: 20px;
   width: 320px;
-  height: 500px;   /* makes it portrait */
+  height: 500px;  
   border-radius: 16px;
   text-align: center;
   animation: slideUp 0.3s ease;
@@ -316,9 +281,7 @@ iframe {
   font-size: 20px;
 }
 
-/* =========================
-   FOOTER
-   ========================= */
+* FOOTER
 
 footer {
   text-align: center;
@@ -327,9 +290,7 @@ footer {
   font-size: 12px;
 }
 
-/* =========================
-   MOBILE
-   ========================= */
+* MOBILE VIEW
 
 @media (max-width: 768px) {
 
@@ -350,7 +311,7 @@ footer {
   }
 
   .hero {
-    margin-top: 40px;   /* FIX: reduced from 80px */
+    margin-top: 40px; 
     padding: 0 20px;
   }
 
@@ -393,8 +354,8 @@ footer {
     align-items: center;
     gap: 18px;
 
-    margin-top: 30px;     /* FIX: reduces header-to-gallery gap */
-    margin-bottom: 60px;  /* FIX: adds space after last card */
+    margin-top: 30px;    
+    margin-bottom: 60px;  
     padding: 0 15px;
   }
 
@@ -405,7 +366,7 @@ footer {
   }
 
   .card img {
-    height: 300px; /* keeps rectangle but smaller */
+    height: 300px; 
   }
 
   .modal-content {
@@ -413,7 +374,7 @@ footer {
   margin: 5% auto;
   padding: 20px;
   width: 320px;
-  height: 500px;   /* makes it portrait */
+  height: 500px;  
   border-radius: 16px;
   text-align: center;
   animation: slideUp 0.3s ease;
