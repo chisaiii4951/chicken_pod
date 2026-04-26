@@ -6,7 +6,7 @@ body {
 
   background: radial-gradient(circle at 20% 20%, #1a1a2e, #0D0D12 60%);}
 
-* MOVING BACKGROUND LAYER 
+
 body::before {
   content: "";
   position: fixed;
@@ -19,14 +19,14 @@ body::before {
 
   animation: floatNebula 25s linear infinite;}
 
-* MOVEMENT ANIMATION
+
 @keyframes floatNebula {
   0% { transform: translate(0,0) scale(1); }
   50% { transform: translate(-3%, 3%) scale(1.05); }
   100% { transform: translate(0,0) scale(1); }
 }
 
-* ANIMATIONS
+
 @keyframes fadeIn {from { opacity: 0; }
   to { opacity: 1; }
 }
@@ -39,7 +39,6 @@ body::before {
   to {transform: translateY(0); opacity: 1; }
 }
 
-* HEADER
 
 header {
   display: flex;
@@ -79,7 +78,7 @@ nav a:hover {
   animation: fadeUp 1.2s ease;
 }
 
-* BUTTONS
+
 
 .btn {
   display: inline-block;
@@ -97,7 +96,7 @@ nav a:hover {
   opacity: 0.9;
 }
 
-* ADMIN
+
 
 .admin {
   display: flex;
@@ -127,7 +126,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-* GALLERY
 
 .gallery {
   display: flex;
@@ -188,7 +186,7 @@ nav a:hover {
   border-radius: 50%;
 }
 
-* ANIMATION
+
 
 @keyframes float {
   from {
@@ -206,7 +204,7 @@ nav a:hover {
   align-items: center;
 }
 
-* ICONS
+
 
 .icon-btn {
   display: flex;
@@ -241,7 +239,6 @@ nav a:hover {
   box-shadow: 0 8px 20px rgba(167,139,250,0.25);
 }
 
-* MODALS
 
 .modal {
   display: none;
@@ -281,7 +278,6 @@ iframe {
   font-size: 20px;
 }
 
-* FOOTER
 
 footer {
   text-align: center;
@@ -290,7 +286,6 @@ footer {
   font-size: 12px;
 }
 
-* MOBILE VIEW
 
 @media (max-width: 768px) {
 
