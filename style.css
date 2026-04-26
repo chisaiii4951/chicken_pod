@@ -7,7 +7,7 @@ body {
   background: radial-gradient(circle at 20% 20%, #1a1a2e, #0D0D12 60%);
 }
 
-/* moving nebula layer */
+/*moving nebula layer*/
 body::before {
   content: "";
   position: fixed;
@@ -230,6 +230,25 @@ nav a:hover {
   }
 }
 
+.socials {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.socials img {
+  width: 22px;
+  height: 22px;
+  filter: brightness(0.9);
+  transition: 0.3s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
 /* =========================
    MODAL
    ========================= */
@@ -280,6 +299,7 @@ footer {
   text-align: center;
   margin: 60px 0;
   color: #9CA3AF;
+  font-size: 12px;
 }
 
 /* =========================
