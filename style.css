@@ -377,6 +377,16 @@ footer {
   .admin p {
     text-align: justify;
   }
+
+  .icon-btn {
+  width: 42px;
+  height: 42px;
+}
+
+.icon-btn svg {
+  width: 20px;
+  height: 20px;
+}
   
   .gallery {
     flex-direction: column;
@@ -397,16 +407,6 @@ footer {
   .card img {
     height: 300px; /* keeps rectangle but smaller */
   }
-
-  .icon-btn {
-  width: 42px;
-  height: 42px;
-}
-
-.icon-btn svg {
-  width: 20px;
-  height: 20px;
-}
 
   .modal-content {
   background: #16161D;
