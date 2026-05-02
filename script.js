@@ -7,10 +7,10 @@ function openModal(type) {
 
   if (type === "proof") {
     widget.src = "https://discord.com/widget?id=1441336765377024054&theme=dark";
-    invite.href = "https://discord.gg/https://discord.gg/KSq34uw6u";
+    invite.href = "https://discord.gg/YH7mvpHmd";
   } else {
     widget.src = "https://discord.com/widget?id=1442698990054543474&theme=dark";
-    invite.href = "https://discord.gg/https://discord.gg/z4mJZAnh";
+    invite.href = "https://discord.gg/N5XYjNbB";
   }
 }
 
